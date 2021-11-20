@@ -7,7 +7,7 @@ function compute()
         alert("Enter a positive number");
         return false;
     }
-    interest = parseInt(principal) + parseInt(principal) * years * rate /100
+    interest = parseInt(principal) * years * rate /100
     var year = new Date().getFullYear() + parseInt(years);
 
     //var result = document.getElementById("result");

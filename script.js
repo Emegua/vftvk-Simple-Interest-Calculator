@@ -21,6 +21,7 @@ function compute()
     document.getElementById("r6").innerText= ".\n";
     document.getElementById("r7").innerText= "You will receive an amount of ";
     document.getElementById("r8").innerText= interest;
+    document.getElementById("r19").innerText= ",";
     document.getElementById("r9").innerText= "in the year ";
     document.getElementById("r10").innerText= `${year}\n\n`;
     return true;  

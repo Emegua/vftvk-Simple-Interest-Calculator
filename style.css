@@ -22,7 +22,8 @@ h1{
 .chailddiv {
     color: black;
     background-color: white;
-    width: 300px;
+    width: 400px;
+
     margin: auto;
     align-items: center;
     align-content: center;
@@ -30,7 +31,6 @@ h1{
 
 .tablee {
     color: black;
-    padding-bottom: 10;
 }
 
 .highlight {

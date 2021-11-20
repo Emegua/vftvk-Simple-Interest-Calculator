@@ -5,6 +5,7 @@ function compute()
     var years = document.getElementById("years").value;
     if (isNaN(principal) || principal=="" || principal<=0) {
         alert("Enter a positive number");
+        document.getElementById("principal").focus();
         return false;
     }
     interest = parseInt(principal) * years * rate /100
